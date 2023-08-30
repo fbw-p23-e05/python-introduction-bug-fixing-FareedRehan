@@ -170,7 +170,8 @@ while x > 0:
 x = 10
 ```
 
->Find the bug and fix it :smiley:
+>Find the bug and fix it :smiley:  if i % num1 == 0 and i % num2 == 0: #Bug-6 (elif i % num1 == 0 and num2 == 0)
+        print(i, three_mul + five_mul) #Bug-6 (print must be align with elif)
 - Your result could look like this:
 
 ```bash
